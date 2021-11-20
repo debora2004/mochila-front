@@ -1,0 +1,135 @@
+body{
+    margin:0;
+    padding:0;
+   
+  }
+
+  .forma{
+    background: #E5E5E5;
+    display:inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+/* header */
+#logo-perfil{
+
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+h1{
+    background: #C4C4C4;
+    top: 125px;
+    position: relative;
+    text-align: center;
+}
+
+.estilo-h1{
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 84.69%;
+    margin-top: -10.5%;
+    color: #005677;
+    }
+
+h2{
+    background: #C4C4C4;
+    top: 350px;
+    position: relative;
+    text-align: left;
+}
+h2{
+    background: #C4C4C4;
+    top: 350px;
+    position: relative;
+    text-align: left;
+}
+
+.estilo-h2{
+font-family: Times New Roman;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 84.69%;
+color: #005677;
+}
+.estilo-h3{
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 84.69%;
+    color: #005677;
+    margin-top: -20%;
+    }
+
+    .estilo-h4{
+        font-family: Times New Roman;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 84.69%;
+        color: #005677;
+        margin-top: -20%;
+        }
+
+ 
+ #datos{
+  
+    
+    font-family: Times New Roman;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 84.69%;
+    color: #000000;
+ }
+
+ #datos1{
+  
+    font-family: Times New Roman;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 84.69%;
+    color: #000000;
+ }
+
+ #datos2{
+
+
+    font-family: Times New Roman;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 84.69%;
+    color: #000000;
+ }
+
+ ul{
+     position: relative;
+     margin-top: 27%;
+ }
+
+ p{
+    line-height: 2px;
+
+ }
+
+ .espacio-it{
+   
+    margin-left: 2%;
+    padding: 3%;
+    
+ }
+
+ footer{
+     margin-top: 15%;
+    background: #005677;
+    text-align: center;
+ }
