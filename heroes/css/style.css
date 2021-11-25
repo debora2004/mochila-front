@@ -17,6 +17,37 @@
     box-sizing: border-box;
 }
 
+.navegador{
+    width: 100%;
+    position: absolute;
+    background: #001D2D;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+   
+}
+
+.navegador ul{
+    display:inline;
+    list-style: none;
+    margin: 0.5em auto;
+    text-align: center;
+    float: right;
+    padding-right: 12px;
+}
+
+.navegador ul li{
+    display: inline;
+}
+
+.navegador ul li a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    margin:2vh;
+}
+
 .title{
     width: 100%;
     margin-top: 0%;
@@ -28,6 +59,14 @@
     
 }
 
+.logo-tienda{
+    width: 10%;
+}
+.titulo{
+    position:absolute;
+    margin-top:4%;
+    font-size: 30px;
+}
 section{
     display:block;
 }
@@ -82,6 +121,15 @@ section{
     position: absolute;
     left: calc(50% - 60px);
     top: 210px;
+}
+
+.logo-spider{
+        
+        border-radius: 50%;
+        position: absolute;
+        left: calc(50% - 60px);
+        top: 210px;
+
 }
 
 .descripcion-card {
@@ -174,6 +222,11 @@ footer {
     margin: none;
 }
 
+.plus:hover {
+    transition: .3s all;
+    transform: scale(1.1);
+
+}
 
 
 @media (min-width:460px){
