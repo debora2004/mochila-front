@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/registro.css">
+    <title>Library Super|Registro</title>
 </head>
 <body>
+
+    <header class="header-desc" >
+        20% de descuento en todos los productos!
+    </header>
+    <div class="title">
+       <img class="logo-tienda" src="/css/logo-tienda.png" alt=""> <span class="titulo" >Library Super</span>
+    </div>
+
+    
+    <main class="contenedorLogin">
+        <h1 class="titulologin">Login</h1>
+        <form class="formlogin" action="./plataforma.html" method="get">              
+                <input class="inputlogin" type="text" name="nombre_apellido" placeholder="Nombre y Apellido">  
+                <input class="inputlogin" type="email" name="email" placeholder="ejemploemail@gmail.com"  required>
+                <input class="inputlogin" type="password" name="password" placeholder="********"  required>
+              
+
+                <select  placeholder="pais" class="selectlogin" name="pais">
+                    <option disabled selected>Seleccione su país de residencia</option>
+                    <option value="1">Argentina</option>
+                    <option value="2">España</option>
+                    <option value="3">México</option>
+                    <option value="4">Guatemala</option>
+                    <option value="5">Honduras</option>
+                    <option value="7">El Salvador</option>
+                    <option value="8">Venezuela</option>
+                    <option value="9">Colombia</option>
+                    <option value="10">Cuba</option>
+                    <option value="11">Bolivia</option>
+                    <option value="13">Perú</option>
+                    <option value="14">Ecuador</option>
+                    <option value="15">Paraguay</option>
+                    <option value="16">Uruguay</option>
+                    <option value="17">Chile</option>
+                  </select>
+
+                <div class="loginbutton">
+                   <form action="./plataforma.html">
+                    <button  class="buttonform b-2">Registrarme</button>
+                   </form>
+                   <form action="./registro.html"><button class="buttonform b-1">Resetear</button></form>
+                    
+               </div>
+        </form>
+        <p class="text-registro">¿Ya tenés una cuenta? <span><a href="./plataforma.html" target="blanck">Ingresá</a></span></p>
+    </main>
+
+
+    <footer>
+        <div class="footer-box">
+            <br>
+            <p class="text-footer">
+                Abigail Justiniano © 2021 Todos los derechos reservados
+            </p>
+        </div>
+    </footer>
+
     
 </body>
 </html>

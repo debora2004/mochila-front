@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.header-desc{
+    width: 100%;
+    position: absolute;
+    background: #1CD1B0;
+    margin-top: 0%;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+
+.title{
+    width: 100%;
+    margin-top: 0%;
+    padding-left: 28px;
+    padding-top: 50px;
+    padding-bottom: 1px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    background: #00669F;;
+    
+}
+
+.logo-tienda{
+    width: 10%;
+}
+.titulo{
+    position:absolute;
+    margin-top:4%;
+    font-size: 30px;
+}
+
+h1{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 60px;
+    color: #333333;
+}
+
+.contenido{
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+button{
+  
+    display: inline-flex;
+    background-color:#1CD1B0;
+    width: 614.25px;
+    height: 53.79px;
+    border-radius: 23.011px;
+    margin: 40px 0px 5px;
+    text-decoration: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    padding: 16px 290px;
+    margin-left: 30%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    
+}
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    position: absolute;
+    bottom: -1;
+    background: #00669F;
+    overflow: hidden;
+    width: 100%;
+    height: 52px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top:10%;
+
+}
+
+.footer-div {
+
+    margin: auto;
+}
+
+.footer-text {
+   
+    color: #FFF9F9;
+    font-size: 16px;
+    line-height: 19px;
+
+
+}
